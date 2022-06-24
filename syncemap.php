@@ -30,7 +30,7 @@ if ($sourcestream && $deststream) {
                     $headers = imap_headers($sourcembox);
                     $total = count($headers);
                     $n = 1;
-                    echo "$total items in $mailbox\n";
+                    //cho "$total items in $mailbox\n";
                     if ($headers) {
                         foreach ($headers as $key => $thisHeader) {
                             // echo "copying $n of $total... ";
